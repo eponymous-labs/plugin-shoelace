@@ -1,11 +1,19 @@
 {
-  "name": "shoelace-plugin",
+  "name": "plugin-shoelace",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a JSPM transpiler plugin based on Babel.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eponymous-labs/shoelace-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eponymous-labs/shoelace-plugin/issues"
+  },
+  "homepage": "https://github.com/eponymous-labs/shoelace-plugin#readme"
 }
