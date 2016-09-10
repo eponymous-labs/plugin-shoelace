@@ -1,11 +1,12 @@
 {
   "name": "plugin-shoelace",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "This is a JSPM transpiler plugin based on Babel.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "registry": "github",
   "author": "",
   "license": "ISC",
   "repository": {
