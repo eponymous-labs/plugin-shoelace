@@ -32,7 +32,6 @@ function parse(code, options){
 
   var plugins = [
     require('babel-plugin-transform-decorators-legacy').default, 
-    // require('babel-plugin-transform-runtime').default
     require('babel-plugin-top-level-await').default,
     require('babel-plugin-uncommon-transform').default
   ]
@@ -83,7 +82,7 @@ exports.translate = function(load, traceOpts) {
   }
 
   return parse(load.source, options).then(function(file){
-    var output = file.__posttransform(file.transform(), options)
+    var output = file.__posttransform(file.transform(), options, load)
 
     // set output module format
     // (in builder we output modules as esm)

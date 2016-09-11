@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/eponymous-labs/shoelace-plugin/issues"
   },
-  "homepage": "https://github.com/eponymous-labs/shoelace-plugin#readme"
+  "homepage": "https://github.com/eponymous-labs/shoelace-plugin#readme",
+  "dependencies": {
+    "babel-core": "npm:babel-core@^6.14.0",
+    "babel-plugin-top-level-await": "npm:babel-plugin-top-level-await@^0.7.1",
+    "babel-plugin-transform-decorators-legacy": "npm:babel-plugin-transform-decorators-legacy@^1.3.4",
+    "babel-plugin-uncommon-transform": "npm:babel-plugin-uncommon-transform@^0.6.0",
+    "babel-preset-es2015": "npm:babel-preset-es2015@^6.14.0",
+    "babel-preset-react": "npm:babel-preset-react@^6.11.1",
+    "babel-preset-stage-0": "npm:babel-preset-stage-0@^6.5.0"
+  }
 }
