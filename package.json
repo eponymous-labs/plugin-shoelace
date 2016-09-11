@@ -27,23 +27,10 @@
     "babel-preset-stage-0": "npm:babel-preset-stage-0@^6.5.0"
   },
   "jspm": {
-    "overrides": {
-      "npm:debug@2.2.0": {
-        "main": "browser.js",
-        "jspmNodeConversion": false,
-        "format": "cjs",
-        "map": {
-          "./browser.js": {
-            "node": "./node.js"
-          },
-          "./node.js": {
-            "browser": "./browser.js"
-          },
-          "fs": "@node/fs",
-          "net": "@node/net",
-          "tty": "@node/tty",
-          "util": "@node/util"
-        }
+    "map": {
+      "debug/node.js": {
+        "node": "debug/node.js",
+        "browser": "debug/browser.js"
       }
     }
   }
